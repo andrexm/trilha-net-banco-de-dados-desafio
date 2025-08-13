@@ -13,3 +13,7 @@ GO
 --- 04
 SELECT Nome Ano, Duracao FROM Filmes WHERE Ano = 1997
 GO
+
+--- 05
+SELECT Nome, Ano, Duracao FROM Filmes WHERE Ano > 2000
+GO
