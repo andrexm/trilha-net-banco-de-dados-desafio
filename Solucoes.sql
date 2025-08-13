@@ -33,3 +33,7 @@ GO
 --- 09
 SELECT * FROM Atores WHERE Genero = 'F' ORDER BY PrimeiroNome
 GO
+
+--- 10
+SELECT Nome, Genero FROM FilmesGenero FG INNER JOIN Filmes ON FG.IdFilme = Filmes.Id INNER JOIN Generos ON FG.IdGenero = Generos.Id
+GO
