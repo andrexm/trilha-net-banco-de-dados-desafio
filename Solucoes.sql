@@ -25,3 +25,7 @@ GO
 --- 07
 SELECT COUNT(*) Quantidade FROM Filmes GROUP BY Ano ORDER BY SUM(Duracao) DESC
 GO
+
+--- 08
+SELECT * FROM Atores WHERE Genero = 'M'
+GO
