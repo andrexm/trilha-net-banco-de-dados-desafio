@@ -29,3 +29,7 @@ GO
 --- 08
 SELECT * FROM Atores WHERE Genero = 'M'
 GO
+
+--- 09
+SELECT * FROM Atores WHERE Genero = 'F' ORDER BY PrimeiroNome
+GO
