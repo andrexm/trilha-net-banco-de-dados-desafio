@@ -41,3 +41,7 @@ GO
 --- 11
 SELECT Nome, Genero FROM FilmesGenero FG INNER JOIN Filmes ON Filmes.Id = FG.IdFilme INNER JOIN Generos ON FG.IdGenero = Generos.Id WHERE Genero = 'Mistério'
 GO
+
+--- 12
+SELECT Nome, PrimeiroNome, UltimoNome, Papel FROM ElencoFilme ef INNER JOIN Filmes f ON f.Id  = ef.IdFilme INNER JOIN Atores a ON a.Id = ef.IdAtor
+GO
